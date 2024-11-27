@@ -1,0 +1,11 @@
+segmentation-models-pytorch
+matplotlib
+Pillow
+numpy
+torch
+torchmetrics
+torchvision
+albumentations
+pandas
+nibabel
+tqdm
