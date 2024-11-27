@@ -22,6 +22,34 @@ BraTS 2020 Training Dataset
 
 Ensure you have a CUDA-compatible GPU with sufficient VRAM (16GB+ recommended)
 
+# 🛠️ Installation
+
+Create and activate a conda environment:
+```
+conda create -n brain_seg python=3.8
+conda activate brain_seg
+```
+Install required packages:
+```
+pip install -r requirements.txt
+```
+
+Required packages include:
+```
+segmentation-models-pytorch
+matplotlib
+Pillow
+numpy
+torch
+torchmetrics
+torchvision
+albumentations
+pandas
+nibabel
+tqdm
+
+```
+
 # 📁 Repository Structure
 The project is divided into multiple Jupyter notebooks, each focusing on a specific architecture:
 
